@@ -1,0 +1,103 @@
+/* Estilos universales a la página */
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ color: white;
+ font-family: "Raleway", sans-serif;
+}
+
+/* Estilos body */
+body {
+ background-color: black;
+}
+
+/* Estilos img */
+img:hover {
+ transform: scale(1.05);
+ transition: 1s;
+ cursor: pointer;
+}
+
+/* Estilos header */
+header h1 {
+ text-align: center;
+ font-size: 80px;
+ padding: 30px;
+}
+
+header img {
+ width: 100%;
+ height: auto;
+}
+
+/* Estilos descripción general */
+.descripcion-general {
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+ padding: 100px;
+}
+
+.texto-descriptivo {
+ font-size: 30px;
+ padding: 50px;
+}
+
+.img-descriptiva {
+ padding: 50px;
+}
+
+/* Estilos características */
+.caracteristicas {
+ background-color: rgb(30, 26, 19);
+ background: rgb(30, 26, 19);
+ opacity: 94%;
+}
+
+.caracteristicas {
+ text-align: center;
+ padding: 80px;
+ font-size: 40px;
+}
+
+.caracteristicas-child {
+ display: flex;
+ justify-content: space-evenly;
+ text-align: center;
+ padding: 50px;
+ font-size: 30px;
+}
+
+.caracteristicas-child img {
+ width: 150px;
+ height: 150px;
+ padding-bottom: 40px;
+}
+
+/* Estilos fotografías */
+.fotografias {
+ display: flex;
+ justify-content: space-evenly;
+}
+
+.fotografias img {
+ gap: 20px;
+ width: 500px;
+ height: auto;
+}
+
+/* Estilos footer */
+footer {
+ background-color: rgb(30, 26, 19);
+ background: rgb(30, 26, 19);
+ opacity: 94%;
+ text-align: center;
+ font-size: 20px;
+ padding: 50px;
+}
+
+footer a:hover {
+ color: orange;
+ font-size: 22px;
+}
